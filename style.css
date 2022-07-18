@@ -126,7 +126,7 @@ footer{
     padding-top:var(--main-padding);
     border-radius: 25px;
 }
-@media only screen and (max-width:550px) {
+@media only screen and (max-width:940px) {
     .responsive{
         grid-template-columns: 2.5fr 2.5fr;
         grid-template-rows: 2.9fr 1fr 1fr 1fr;
