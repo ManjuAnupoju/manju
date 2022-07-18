@@ -128,7 +128,7 @@ footer{
 }
 @media only screen and (max-width:550px) {
     .responsive{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1.5fr 1.5fr;
         grid-template-rows: 2.9fr 1fr 1fr 1fr;
         grid-template-areas:
         "about about"
