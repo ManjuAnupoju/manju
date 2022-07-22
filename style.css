@@ -3,17 +3,17 @@
 }
 .contact{
     position: absolute;
-    right:5px;
-    top:5px;
+    right:0.3125rem;
+    top:0.3125rem;
 }
 .cloud:hover{
     position:relative;
-    right: 300px;
-    top:100px;
+    right: 18.75rem;
+    top:6.25rem;
 }
 .dp{
     position:relative;
-    left:310px;
+    left:19.375rem;
 }
 h1{
     font-size:3.625rem;
@@ -26,34 +26,34 @@ h2{
     font-size: 2.5rem;
     text-align: center;
     position:relative;
-    bottom:24px;
+    bottom:1.5rem;
     font-weight:normal;
 }
 p{
     text-align: center;
     color:brown;
     position:absolute;
-    margin:100px 0 100px 0;
+    margin:6.25rem 0 6.25rem 0;
 }
 .second-cloud:hover{
     position:absoulte;
-    left: 600px;
-    bottom:300px;
+    left: 37.5rem;
+    bottom:18.5rem;
 }
 .introduction {
     font-size: larger;
     background-color: #87ceeb;
-    padding: 20px;
-    margin:10px;
+    padding: 1.25rem;
+    margin:0.625rem;
     border: solid;
     height:41%;
     width:95%;
     position:relative;
-    padding:20px;
+    padding:1.25rem;
 }
 .thick-green-border {
     border-color: lightpink !important;
-    border-width:3px;
+    border-width:0.1875rem;
     border-style:solid;
     border-radius: 50%;
 }
@@ -69,7 +69,7 @@ a:hover{
     color:black;
 }
 body {
-    font-size:20px;
+    font-size:1.25rem;
     font-family:'Pacifico', Arial, Helvetica, sans-serif;
     width:"200px";
     height:200vh;
@@ -84,34 +84,34 @@ body {
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
     border: solid blue;
-    border-radius: 25px;
+    border-radius:1.5625rem;
 }
 #Languagesknown {
     grid-area: Languagesknown;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
     border: solid green;
-    border-radius: 25px;
+    border-radius:1.5625rem;
 }
 #Skills {
     grid-area: Skills;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
     border: solid brown;
-    border-radius: 25px;
+    border-radius:1.5625rem;
 }
 #AwardsandAchievements {
     grid-area: AwardsandAchievements;
     border: solid darkmagenta;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
-    border-radius: 25px;
+    border-radius: 1.5625rem;
 }
 footer{
     grid-area: footer;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
-    border-radius: 25px;
+    border-radius: 1.5625rem;
 }
 @media only screen and (max-width:750px) {
     .responsive{
@@ -145,34 +145,34 @@ hr{
     border-top-style: dotted;
     width: 5%;
     border-color:black;
-    border-width:11px;
-    margin:50px auto;
+    border-width:0.6875rem;
+    margin:3.125rem auto;
 }
 .container {
-    font-size:20px;
+    font-size:1.25rem;
     display: grid;
     background-color:deeppink;
     position:absolute;
-    top:1215px;
+    top:75.9375rem;
     height:40%;
     width:100%;
 }
 .instagram{
-    width:100px;
-    height:75px;
+    width:6.25rem;
+    height:4.6875rem;
     position:relative;
-    left:500px;
-    top:70px;
+    left:31.25rem;
+    top:4.375rem;
 }
 .facebook{
-    width:100px;
-    height:75px;
+    width:6.25rem;
+    height:4.6875rem;
     position:relative;
-    left:650px;
-    top:70px;
+    left:40.625rem;
+    top:4.375rem;
 }
 .copyright{
     position : relative;
-    top:100px;
+    top:6.25rem;
     left:550px;
 }
