@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}  
+.contact{
+    position: absolute;
+    right:5px;
+    top:5px;
+}
+.cloud:hover{
+    position:relative;
+    right: 300px;
+    top:100px;
+}
+h1{
+    font-size:3.625rem;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 0 ;
+    line-height:1.5;
+}
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+    position:relative;
+    bottom:24px;
+    font-weight:normal;
+}
+p{
+    text-align: center;
+    color:brown;
+    position:absolute;
+    margin:100px 0 100px 0;
+}
+.second-cloud:hover{
+    position:absoulte;
+    left: 600px;
+    bottom:300px;
+}
+.dp{
+    position:relative;
+    left:310px;
+}
+.introduction {
+    grid-area: introduction;
+    font-size: larger;
+    background-color: #87ceeb;
+    margin:10px;
+    border: solid;
+    height:45%;
+    width:95%;
+    position:relative;
+    padding:20px;
+}
+.thick-green-border {
+    border-color: lightpink !important;
+    border-width:3px;
+    border-style:solid;
+    border-radius: 50%;
+}
+a {
+    font-size:100%;
+    color: blue;
+    text-decoration: none;
+    transition: 0.1s all ease-in-out;
+}
+a:hover{
+    transform: scale(1.1);
+}
+.red-text {
+    color:black;
+}
+body {
+    font-size:20px;
+    font-family:'Pacifico', Arial, Helvetica, sans-serif;
+    width:"200px";
+    height:200vh;
+    margin: 0;
+}
+#about {
+    grid-area: about;
+    border: solid blue;
+    border-radius: 25px;
+}
+#Languagesknown {
+    grid-area: Languagesknown;
+    border: solid green;
+    border-radius: 25px;
+}
+#Skills {
+    grid-area: Skills;
+    border: solid brown;
+    border-radius: 25px;
+}
+#AwardsandAchievements {
+    grid-area: AwardsandAchievements;
+    border: solid darkmagenta;
+    border-radius: 25px;
+}
+.container{
+    grid-area:container;
+    border: deeppink;
+    border-radius: 20px;
+}
+@media only screen and (max-width:850px) {
+    .responsive{
+        grid-template-columns: 1fr;
+        grid-template-rows: 5vh 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "introduction"
+        "about "
+        "Languagesknown "
+        "Skills"
+        "AwardsandAchievements"
+        "container";
+        grid-gap:0.2rem;
+    }
+}
+.responsive
+{
+    display:grid;
+    height:100vh;
+    width:100;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 4.5vh 1.5fr 1.5fr 0.6fr;
+    grid-template-areas:
+        "introduction introduction introduction introduction"
+        "about about Languagesknown Languagesknown"
+        "Skills Skills AwardsandAchievements AwardsandAchievements"
+        "container container container container";
+        grid-gap: 0.5rem;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-color:black;
+    border-width:11px;
+    margin:50px auto;
+}
+.container {
+    font-size:20px;
+    display: grid;
+    background-color:deeppink;
+    position:absolute;
+    top:1215px;
+    height:40%;
+    width:100%;
+}
+.instagram{
+    grid-area: instagram;
+    width:100px;
+    height:75px;
+    position:relative;
+    left:700px;
+}
+.facebook{
+    grid-area: facebook;
+    width:100px;
+    height:75px;
+    position:relative;
+    bottom: 80px;
+    left: 500px;
+}
+.copyright{
+    position : absolute;
+    top:80px;
+    left:550px;
+}
+.styling{
+    transition: 0.1s all ease-in-out;
+}
+.styling:hover{
+    transform:scale(1.1);
+}
